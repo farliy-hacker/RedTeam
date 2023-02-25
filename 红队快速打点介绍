@@ -1,0 +1,26 @@
+RedTeam
+
+
+介绍
+本项目是辅助红队人员进行快速Web打点
+使用了FOFA,00信安,奇安信鹰图的网络空间测绘
+Web指纹识别,POC漏洞批量扫描验证
+一条龙服务
+
+软件架构说明
+安装教程
+    pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirementss.txt
+    pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+
+使用说明
+    主程序是Red.py
+    编辑Red.py,加入FOFA,00信安,鹰图的api_key配置
+    运行即可
+    方法:
+    python3 Red.py 广东工贸职业技术学院  domain="gdgm.cn" web.body="H3C"  
+    其中:
+    广东工贸职业技术学院是00信安的公司目标传参
+    domain="gdgm.cn"这个是FOFA的语法
+    web.body="H3C" 是奇安信鹰图语法
+    集合了资产测绘,漏洞POC扫描,Web指纹识别
+    page_size=10这个是爬取页数,可以进入python脚本进行相应修改
