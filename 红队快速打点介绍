@@ -15,6 +15,7 @@ Web指纹识别,POC漏洞批量扫描验证
 使用说明
     主程序是Red.py
     编辑Red.py,加入FOFA,00信安,鹰图的api_key配置
+    然后在config文件夹,也要编辑config.py填入api_key
     运行即可
     方法:
     python3 Red.py 广东工贸职业技术学院  domain="gdgm.cn" web.body="H3C"  
